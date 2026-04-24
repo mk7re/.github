@@ -6,6 +6,9 @@
    * https://github.com/PabloMK7/CTGP-7_Open_Source/tree/main/Includes
    * https://github.com/kinnay/NintendoClients/wiki/NEX-Protocols
    * https://nintendo-wiki.pretendo.network/docs/ (*Mario Kart 7* uses NEX 2)
+   * [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
+   * [bindiff](https://github.com/google/bindiff). Used for finding differences between similar binaries (useful for comparing different code between game revisions).
+   * [C++ demangler](https://www.demangler.com/)
 
 ### Ghidra
 - [How to access our shared Ghidra repository](https://imgur.com/a/N30GCJA)
