@@ -13,7 +13,7 @@
    * Additionally, you can find [the symbol maps for Nintendogs + cats here](https://tcrf.net/images/a/a4/NintendogsCats_Symbol_Maps.zip).<br>
      Both *Nintendogs + cats* and *Mario Kart 7* use the same engine, and because the symbol maps for *Nintendogs + cats* are for the full game, they reveal some symbols not present in the *Mario Kart 7* Download Play symbol maps.
 - [Scripts to import symbol maps](https://github.com/LoigiFan72/Ghidra-IDA-Map-Import-Scripts).
-   [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
+- [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
 
 ### Known, public exploits
   * https://github.com/PabloMK7/ENLBufferPwn
