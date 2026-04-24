@@ -6,9 +6,6 @@
    * https://github.com/PabloMK7/CTGP-7_Open_Source/tree/main/Includes
    * https://github.com/kinnay/NintendoClients/wiki/NEX-Protocols
    * https://nintendo-wiki.pretendo.network/docs/ (*Mario Kart 7* uses NEX 2)
-   * [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
-   * [bindiff](https://github.com/google/bindiff). Used for finding differences between similar binaries (useful for comparing different code between game revisions).
-   * [C++ demangler](https://www.demangler.com/)
 
 ### Ghidra
 - [How to access our shared Ghidra repository](https://imgur.com/a/N30GCJA)
@@ -16,6 +13,12 @@
    * Additionally, you can find [the symbol maps for Nintendogs + cats here](https://tcrf.net/images/a/a4/NintendogsCats_Symbol_Maps.zip).<br>
      Both *Nintendogs + cats* and *Mario Kart 7* use the same engine, and because the symbol maps for *Nintendogs + cats* are for the full game, they reveal some symbols not present in the *Mario Kart 7* Download Play symbol maps.
 - [Scripts to import symbol maps](https://github.com/LoigiFan72/Ghidra-IDA-Map-Import-Scripts).
+   [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
+
+### Known, public exploits
+  * https://github.com/PabloMK7/ENLBufferPwn
+  * https://github.com/PabloMK7/kartdlphax
+  * https://github.com/zoogie/kartminer7
 
 ### Others
 - [Useful notes, speadsheets and others](https://drive.google.com/drive/folders/1SA4hMsJw4gPiC0jozNVZQnm6fIZsNPUW?usp=drive_link). Additionally, [check this page out for more notes](https://tcrf.net/Notes:Mario_Kart_7).
@@ -24,6 +27,8 @@
 - [Custom Mario Kart 7 Wiki (File Format documentation)](https://mk3ds.com/)
 - [List of various tools for modifying the game's assets](https://docs.google.com/document/d/1iXHI7zIWe7g7o8QMUUqdBQCS7k8uOUq4QWMs5rU0JdQ/edit?tab=t.0) (courtesy of Cats4Life from the CTGP-7 server)
 - [General tutorial for 3DS game modding and reverse engineering](https://gamebanana.com/tuts/13395)
+- [bindiff](https://github.com/google/bindiff). Used for finding differences between similar binaries (useful for comparing different code between game revisions).
+- [C++ demangler](https://www.demangler.com/)
 
 ### Related Discord servers:
 - [Mario Kart 7 TCRF](https://discord.gg/RAcJShncQ4)
