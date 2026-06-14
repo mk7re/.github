@@ -39,5 +39,8 @@
 ### Debugging
 Mario Kart 7 can be used alongside a debugger in both a real 3DS with Luma CFW (recommended), or an emulator capable of connecting to a debugger client. [More info](https://bmaupin.github.io/wiki/other/3ds/3ds-debugging.html).
 
+> [!IMPORTANT]
+> If using emulators for debugging, make sure that the **CPU JIT** option is **disabled** before starting the game!
+
 * **If using IDA**: It's best to use IDA Pro version 7.0, as the debugger in this version is less likely to have issues with breakpoints and other elements while debugging. Note that, if using an emulator, there's a chance that you won't be able to write data to memory nor registers using the debugger client.
 * **If not using IDA**: devkitARM's own GDB debugger client should work fine, though we personally recommend using [gdb-multiarch](https://packages.msys2.org/packages/gdb-multiarch?variant=x86_64) via WSL or MSYS64 (if using Windows). If using an emulator to debug, ensure to write the statement `set architecture armv6` after opening GDB so that it knows the architecture we're going to debug is ARM specifically.
