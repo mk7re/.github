@@ -8,7 +8,7 @@
    * https://nintendo-wiki.pretendo.network/docs/ (*Mario Kart 7* uses NEX 2)
 
 ### Ghidra
-- [How to access our shared Ghidra repository](https://imgur.com/a/N30GCJA)
+- [How to access our shared Ghidra repository](../GHIDRA.md)
 - [Symbol maps for the Download Play child executables](https://tcrf.net/images/8/89/MK7_Download_Play_Child_Symbol_Maps.zip)
    * Additionally, you can find [the symbol maps for Nintendogs + cats here](https://tcrf.net/images/a/a4/NintendogsCats_Symbol_Maps.zip).<br>
      Both *Nintendogs + cats* and *Mario Kart 7* use the same engine, and because the symbol maps for *Nintendogs + cats* are for the full game, they reveal some symbols not present in the *Mario Kart 7* Download Play symbol maps.
