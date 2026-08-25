@@ -5,7 +5,7 @@
    * https://github.com/PabloMK7/EveryFileExplorer/tree/master/MarioKart/MK7
    * https://github.com/PabloMK7/CTGP-7_Open_Source/tree/main/Includes
    * https://github.com/kinnay/NintendoClients/wiki/NEX-Protocols
-   * https://nintendo-wiki.pretendo.network/docs/ (*Mario Kart 7* uses NEX 2)
+   * https://nintendo-wiki.pretendo.network/docs/ and https://developer.pretendo.network/home (*Mario Kart 7* uses NEX 2)
 
 ### Ghidra
 - [How to access our shared Ghidra repository](../GHIDRA.md)
