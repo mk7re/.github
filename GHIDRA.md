@@ -27,3 +27,13 @@ In the References directory, you will find these files:
 * `NintendogsCatsShiba_Korean`: This is the executable file from the Korean version of the Nintendogs+cats Shiba edition. Nintendogs+cats shared various parts of the engine with MK7, since both were developed by the same dev team pretty much.
 * `NintendogsCats_E3_2010` is the executable obtained from the E3 2010 build of Nintendogs+cats. Like with the final version of the game, this build also shares several parts of the code with the E3 2010 build of MK7.
 * `TriforceHeroes_EUR_DP_Debug`: This is the code.bin for the [Debug version of the Triforce Heroes DLP](https://tcrf.net/Proto:The_Legend_of_Zelda:_Tri_Force_Heroes/Download_Play_Debug_Build), another 3DS game that uses the `sead` library.
+
+## In case of slow loading times within Ghidra
+Because of this being a shared project, there is a chance that it may take longer to load, or when trying to make edits.
+If you want, you can export the whole project (or individual files from it) out of the shared project, and then create your non-shared Ghidra project and adding those files in. That way you won't have to connect to the server to access the shared repo. The only thing is that files won't get updated in non-shared projects, so if you want to update the files, you'd have to redo the process below again.
+
+Regarding exporting the whole project: you can do this by opening the shared project, then click on `File > Archive Current Project`, and it will export the whole project as a .gar file.
+Afterwards, close the shared project and click on `File > Restore Project`, and click on the file generated in the previous step. Ghidra will create a new offline (non-shared) project out of the exported file, and so once it's done, you can use that separate project to view all the stuff without needing to be connected online, so navigation will be faster.
+
+## Using the project in newer versions of Ghidra
+If you want to use the project in newer versions of Ghidra, you can try exporting the shared Ghidra project and importing it into a new local repo in your newer Ghidra version (see the paragraph above), then opening the files and clicking on "Upgrade" if prompted. Though this new local project isn't automatically synced with the shared repo, as it's a local copy.
