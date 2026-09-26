@@ -1,12 +1,6 @@
 # Mario Kart 7 Reverse Engineering
 
 ## Useful links
-### Additional header documentation
-   * https://github.com/PabloMK7/EveryFileExplorer/tree/master/MarioKart/MK7
-   * https://github.com/PabloMK7/CTGP-7_Open_Source/tree/main/Includes
-   * https://github.com/kinnay/NintendoClients/wiki/NEX-Protocols
-   * https://nintendo-wiki.pretendo.network/docs/ and https://developer.pretendo.network/home (*Mario Kart 7* uses NEX 2)
-
 ### Ghidra
 - [How to access our shared Ghidra repository](../GHIDRA.md)
 - [Symbol maps for the Download Play child executables](https://tcrf.net/images/8/89/MK7_Download_Play_Child_Symbol_Maps.zip)
@@ -14,6 +8,11 @@
      Both *Nintendogs + cats* and *Mario Kart 7* use the same engine, and because the symbol maps for *Nintendogs + cats* are for the full game, they reveal some symbols not present in the *Mario Kart 7* Download Play symbol maps.
 - [Scripts to import symbol maps](https://github.com/LoigiFan72/Ghidra-IDA-Map-Import-Scripts).
 - [Ghidra's BSim tutorial](https://ghidra.re/ghidra_docs/GhidraClass/BSim/README.html). Used for finding code from one binary in another one (useful for porting symbols from one game executable to another one).
+
+### Additional header documentation
+   * https://github.com/PabloMK7/EveryFileExplorer/tree/master/MarioKart/MK7
+   * https://github.com/kinnay/NintendoClients/wiki/NEX-Protocols
+   * https://nintendo-wiki.pretendo.network/docs/ and https://developer.pretendo.network/home (*Mario Kart 7* uses NEX 2)
 
 ### Known, public exploits
   * https://github.com/PabloMK7/ENLBufferPwn
